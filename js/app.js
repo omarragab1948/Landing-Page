@@ -10,59 +10,6 @@ for(let i = 0; i < document.links.length; i++){
 for(let i = 0; i < document.links.length; i++){
     ulNav.appendChild(document.querySelectorAll("a")[i])
 }
-/*var url = 'www.yoururl/cpm'
-var a = document.createElement('a')
-a.textContent = 'LINK'
-a.href = url 
-document.body.appendChild(a)
-*/
-/*document.write(`<a href='"www.google.com"'>LINK</a>`)
-/*let text = document.createTextNode("Section");
-let link = document.querySelectorAll("a");
-for(i=0; i< (document.querySelectorAll("section").length); i++){
-    (links[i]).appendChild(text)
-}
-/*link.appendChild(text)
-console.log((document.querySelectorAll("a").length))
-/*for(let i = 0; i < (3); i++){
-
-
-}
-/*for(let i = 0; i < (document.querySelectorAll("section").length); i++){
-    document.querySelectorAll("a").appendChild((document.createTextNode("Section")))
-}
-
-/* creat end*/
-/*creat nav links*/
-/*for(i = 0; i < (document.querySelectorAll("section").length); i++){
-    document.createElement("a");
-}
-/*end*/
-/*creat text to put it in a */
-/*for(i = 0; i < (document.querySelectorAll("section").length); i++){
-    document.createElement("section");
-    console.log(2)
-}
-/* creat end*/
-/*put text in a*/
-/*a.appendChild("section");
-/*navLink2.appendChild(navText2);
-navLink3.appendChild(navText3);
-/*end*/
-/*put text in a */
-/*navSec1.appendChild(navLink1);
-navSec2.appendChild(navLink2);
-navSec3.appendChild(navLink3);
-/*end*/
-/*put li in nav ul*/
-/*ulNav.appendChild(navSec1);
-ulNav.appendChild(navSec2);
-ulNav.appendChild(navSec3);
-/*link a in nav with sections*/
-/*navLink1.href = "#section1";
-navLink2.href = "#section2";
-navLink3.href = "#section3";
-/*end*/
 
 window.onscroll = function (){
     if (window.scrollY <= 620 && window.scrollY >= 615){
