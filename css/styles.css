@@ -62,23 +62,25 @@ section {
 /* Navigation Styles*/
 .navbar__menu ul {
   padding-left: 0;
-  margin: 0;
   text-align: right;
-}
-
-.navbar__menu li {
-  display: inline-block;
+  color: black;
   margin: 15px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
+
+
 a{
   text-decoration: none;
   color: #000;
+  margin: 15px;
+
 }
 @media (max-width : 376px) {
   a {
-    font-size: 20px;
+    font-size: 15px;
+    margin: 5px;
+    float: left;
   }
 }
 .navbar__menu .menu__link {
